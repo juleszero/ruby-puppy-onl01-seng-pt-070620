@@ -20,7 +20,9 @@ class Dog
         puts "#{dog.name}"
       end
     end
-    
+  
+  private
+  
     def self.save(name)
     dog = self.new
     dog.name = name
