@@ -21,8 +21,6 @@ class Dog
       end
     end
   
-  private
-  
     def self.save(name)
     dog = self.new
     dog.name = name
